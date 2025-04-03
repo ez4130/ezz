@@ -1,6 +1,3 @@
-lua
-
-
 getgenv().AutoFarm = false
 getgenv().AutoRaid = false
 getgenv().FastAttack = false
