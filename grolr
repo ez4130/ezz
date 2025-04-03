@@ -18,14 +18,14 @@ local ToggleTab = Window:NewTab("Menu Control")
 local ToggleSection = ToggleTab:NewSection("Show/Hide Menu")
 ToggleSection:NewToggle("Show Menu", "Bật/tắt menu hack", function(state)
     getgenv().MenuVisible = state
-    Window:Toggle(state) -- Bật/tắt menu
+    Window:Toggle(state)
 end)
 
 
 local MainTab = Window:NewTab("Main Features")
 local MainSection = MainTab:NewSection("Auto Features")
 
--- Chức năng Auto Farm
+
 MainSection:NewToggle("Auto Farm Level", "Tự động farm quái để lên cấp", function(state)
     getgenv().AutoFarm = state
     while getgenv().AutoFarm do
