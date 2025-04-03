@@ -7,7 +7,7 @@ getgenv().FastAttack = false
 getgenv().TeleportToBoss = false
 getgenv().NoClip = false
 getgenv().AutoHaki = false
-getgenv().MenuVisible = true -- Biến để kiểm soát hiển thị menu
+getgenv().MenuVisible = true
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
